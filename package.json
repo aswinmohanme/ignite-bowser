@@ -34,7 +34,8 @@
     "semantic-release": "semantic-release",
     "build": "yarn compile",
     "compile": "tsc -p .",
-    "clean": "rm -rf ./build"
+    "clean": "rm -rf ./build",
+    "prepare": "yarn build"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
